@@ -1,0 +1,26 @@
+/* src/App.css */
+
+.App {
+  text-align: center;
+  padding-bottom: 120px; /* Reserve space at the bottom for chatbot */
+}
+
+.App-content {
+  max-width: 700px;
+  margin: auto;
+  padding: 20px;
+}
+
+df-messenger {
+  --df-messenger-bot-message: #ececec;
+  --df-messenger-button-titlebar-color: #1976d2;
+  --df-messenger-chat-background-color: #ffffff;
+  --df-messenger-font-color: black;
+  --df-messenger-send-icon: #1976d2;
+  --df-messenger-user-message: #c8e6c9;
+
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  z-index: 1000;
+}
